@@ -23,4 +23,14 @@ export default class UsersControllers {
             return serverError(error)
         }
     }
+
+    async updateUser(userId, userData) {
+        try{
+            console.log("chegou em controllers")
+            const result = await this.dataAccess.updateUser(userId, userData)
+            return ok(result)
+        }catch(error){
+            return serverError(error)
+        }
+    }
 }
