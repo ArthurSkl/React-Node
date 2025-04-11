@@ -3,6 +3,7 @@ import cors from 'cors'
 import { Mongo } from './database/mongo.js'
 import {config} from 'dotenv'
 import authRouter from './auth/auth.js'
+import UsersRouter from './routes/users.js'
 
 config()
 async function main () {
@@ -24,6 +25,7 @@ async function main () {
     })
 
     app.use('/auth', authRouter)
+    app.use('/users', UsersRouter)
 
     app.listen(port, () => {
         console.log(`Server running on:http://${hostname}:${port}`)
