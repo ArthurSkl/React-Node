@@ -14,4 +14,13 @@ export default class UsersControllers {
             return serverError(error)
         }
     }
+
+    async deleteUser(userId) {
+        try{
+            const result = await this.dataAccess.deleteUser(userId)
+            return ok(result)
+        }catch(error){
+            return serverError(error)
+        }
+    }
 }
