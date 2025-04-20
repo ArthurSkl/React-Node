@@ -1,0 +1,38 @@
+[
+
+    {
+        "name": "Squid Stew with Peas",
+        "price": "11.99",
+        "available": false,
+        "description":[
+            "Fresh squid",
+            "Fresh peas",
+            "Tomatoes"
+        ],
+        "category":"First"
+    },
+
+    {
+        "name": "Squid Stew with Peas",
+        "price": "19.99",
+        "available": true,
+        "description":[
+            "Fresh squid",
+            "Fresh peas",
+            "Tomatoes"
+        ],
+        "category":"First"
+    },
+    
+    {
+        "name": "Squid Stew with Peas",
+        "price": "11.99",
+        "available": false,
+        "description":[
+            "Fresh squid",
+            "Fresh peas",
+            "Tomatoes"
+        ],
+        "category":"First"
+    }
+]
