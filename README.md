@@ -47,8 +47,6 @@
 - **cors**  
   Middleware para habilitar CORS em apps Connect/Express, controlando quais origens podem acessar seus recursos e configurando cabeçalhos preflight conforme necessidade.
 
-
-
 > **Obs:** a estrutura em camadas ajuda a manter o código organizado e escalável :contentReference[oaicite:1]{index=1}.
 
 ## 🚀 Tecnologias
@@ -59,12 +57,6 @@
 - **cors** para habilitar requisições cross‑origin  
 - **Passport Local** + **crypto** para hashing seguro de senhas  
 - **JWT** (jsonwebtoken) para emissão de tokens de autenticação  
-
-## 🔧 Pré‑requisitos
-
-- Node.js ≥ 14  
-- MongoDB (local ou Atlas)  
-- Arquivo `.env` na raiz do `backend/` com as chaves:
 
 
 
