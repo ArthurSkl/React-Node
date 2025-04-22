@@ -5,6 +5,7 @@ import {config} from 'dotenv'
 import authRouter from './auth/auth.js'
 import UsersRouter from './routes/users.js'
 import platesRouter from './routes/plates.js'
+import ordersRouter from './routes/orders.js'
 
 config()
 async function main () {
@@ -30,7 +31,7 @@ async function main () {
     app.use('/auth', authRouter)
     app.use('/users', UsersRouter)
     app.use('/plates', platesRouter)
-
+    app.use('/orders',ordersRouter)
 
 
 
